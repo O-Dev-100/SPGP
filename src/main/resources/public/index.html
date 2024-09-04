@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Complex Password Generator</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Password Generator</h1>
+
+        <label for="min-length">Minimum Length:</label>
+        <input type="number" id="min-length" min="8" value="8">
+
+        <label for="max-length">Maximum Length:</label>
+        <input type="number" id="max-length" min="8" value="12">
+
+        <div class="options">
+            <label><input type="checkbox" id="uppercase" checked> Include Uppercase Letters</label>
+            <label><input type="checkbox" id="lowercase" checked> Include Lowercase Letters</label>
+            <label><input type="checkbox" id="numbers" checked> Include Numbers</label>
+            <label><input type="checkbox" id="special" checked> Include Special Characters</label>
+        </div>
+        <label for="custom-chars">Custom Characters:</label>
+        <input type="text" id="custom-chars" placeholder="E.g., ABC123!@#">
+
+        <label><input type="checkbox" id="exclude-ambiguous"> Exclude Ambiguous Characters</label>
+        <label><input type="checkbox" id="exclude-sequential"> Exclude Sequential Characters</label>
+
+        <button id="generate-btn">Generate Password</button>
+
+        <div class="result">
+            <input type="text" id="password" readonly>
+            <button id="copy-btn">Copy</button>
+        </div>
+        <div id="strength">Strength: <span id="strength-indicator">-</span></div>
+        <h2>Password History</h2>
+        <ul id="history"></ul>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,15 @@
+{
+  "title": "Password Generator",
+  "min_length_label": "Minimum Length",
+  "max_length_label": "Maximum Length",
+  "uppercase_label": "Include Uppercase Letters",
+  "lowercase_label": "Include Lowercase Letters",
+  "numbers_label": "Include Numbers",
+  "special_label": "Include Special Characters",
+  "custom_chars_label": "Custom Characters",
+  "exclude_ambiguous_label": "Exclude Ambiguous Characters",
+  "exclude_sequential_label": "Exclude Sequential Characters",
+  "generate_button": "Generate Password",
+  "copy_button": "Copy",
+  "strength_label": "Strength",
+  "history_title": "Password History"}

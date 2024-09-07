@@ -1,0 +1,15 @@
+{
+  "title": "Generador de Contraseñas",
+  "min_length_label": "Longitud Mínima",
+  "max_length_label": "Longitud Máxima",
+  "uppercase_label": "Incluir Letras Mayúsculas",
+  "lowercase_label": "Incluir Letras Minúsculas",
+  "numbers_label": "Incluir Números",
+  "special_label": "Incluir Caracteres Especiales",
+  "custom_chars_label": "Caracteres Personalizados",
+  "exclude_ambiguous_label": "Excluir Caracteres Ambiguos",
+  "exclude_sequential_label": "Excluir Caracteres Secuenciales",
+  "generate_button": "Generar Contraseña",
+  "copy_button": "Copiar",
+  "strength_label": "Fuerza",
+  "history_title": "Historial de Contraseñas"}
